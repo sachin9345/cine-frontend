@@ -1,0 +1,28 @@
+/* Gallery.css */
+
+.gallery {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background: url('../Assets/galleryb.png') no-repeat center center fixed;
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.1); 
+  }
+  
+  .gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .gallery h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-container {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+  }
+  

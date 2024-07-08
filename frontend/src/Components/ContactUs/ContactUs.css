@@ -1,0 +1,97 @@
+.contact-us-container {
+    display: flex;
+    align-items: flex-start; /* Align items to the start */
+    background: url('../../../public/Assets/black.png') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 60px 20px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+    height: 450px;
+    
+  }
+  
+  .contact-us-container h2 {
+    margin-bottom: 10px;
+    font-size: 34px;
+  }
+  
+  .contact-form {
+    width: 400px; /* Set width for the form to full */
+    background: rgba(26, 25, 25, 0.7); /* semi-transparent background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #777777;
+    box-shadow: 1px -1px 25px #444444;
+  }
+  
+  .forms-groups {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    gap: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 94%;
+    padding: 10px;
+    margin-top: 18px;
+    border: 1px solid #777777;
+    border-radius: 5px;
+    background: #1a1a1a;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .contact-form textarea {
+    resize: none; /* Prevent resizing */
+    height: 100px; /* Fixed height */
+  }
+  
+  .advertisement-note-container {
+    display: flex;
+    align-items: center;
+    
+  }
+  .advertisement-note-container input{
+    width: fit-content;
+    margin: 0;
+  }
+  
+  .advertisement-note {
+    color: #777777;
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  
+  .submit-button {
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #DC143C;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background: #e60000;
+  }
+  
+  .totalform {
+    padding: 20px;
+  }
+  
+  .left h2, p {
+    margin: 0;
+  }
+  .contactbutton{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .left p{
+    font-size: 20px;
+  }

@@ -1,0 +1,19 @@
+/* movieListStyles.css */
+
+.movie-list-container {
+    margin-top: 20px;
+  }
+  
+  .movie-table {
+    width: 100%;
+  }
+  
+  .movie-table-header-cell {
+    font-weight: bold;
+  }
+  
+  .movie-table-actions-cell {
+    display: flex;
+    gap: 8px;
+  }
+  

@@ -1,0 +1,31 @@
+/* src/Design.css */
+.designcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh; /* Adjust the height as needed */
+  position: relative;
+  background-color: black;
+}
+
+.designcon::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%; /* Adjust the height as needed */
+  z-index: 1;
+}
+
+.design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2; /* Ensure the design content is above the gradient */
+}
+
+.design img {
+  max-width: 100%;
+  height: auto;
+}

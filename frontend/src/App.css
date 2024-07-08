@@ -1,0 +1,13 @@
+body{
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+}
+
+a{
+  text-decoration: none;
+}
+/* App.css or adminlayout.css */
+.admin-dashboard-background {
+  background-color: white;
+}

@@ -1,0 +1,103 @@
+/* UpcomingMovies.css */
+
+.upcoming-movies {
+  text-align: center;
+  padding: 0 20px 20px 20px;
+  background: 
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), 
+      url('../../../public/Assets/inverted.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+  
+  .upcoming-movies h2 {
+      margin:0px 0 20px ;
+      padding-top: 10px;
+  }
+  .movies-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .nav-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 4rem;
+    cursor: pointer;
+    padding: 0 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .prev {
+    left: 5px;
+  }
+  
+  .next {
+    right: 5px;
+  }
+  
+  .movies-list {
+    display: flex;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .movie-cards {
+    overflow: hidden;
+    width: 330px;
+    margin: 30px 10px;
+    text-align: center;
+        transition: transform 0.3s;
+  }
+  .movie-cards:hover {
+    transform: scale(1.06); /* Adjust the scale value as needed */
+}
+
+  .movie-cards img {
+    width: 237px;
+    height: 322px;
+    border-radius: 21px;
+  }
+  
+  .movie-cards h3 {
+    margin: 10px 0;
+  }
+  
+  .trailer-link {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .play-trailer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .play-trailer{
+    margin-right: 6px; /* Adjust spacing as needed */
+    text-decoration: underline;
+    color: #E1E1E1;
+  }
+
+  .play-trailer-container img{
+    height: 15px;
+    width: 15px;
+  }
+  
+  .features img{
+    width:100%;
+  }
+  .features{
+    background-color: black;
+  }

@@ -1,0 +1,174 @@
+.home-container {
+  overflow: hidden;
+  background-color: black;
+}
+
+span {
+  color: #EE4B2B;
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.slider {
+  width: 100%;
+}
+
+.slide {
+  position: relative;
+}
+
+.slide-image {
+  width: 100%;
+  height: 90vh; 
+  object-fit: cover;
+}
+
+.slide::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30%; 
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+  z-index: 1;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90vh; 
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.movie-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  flex-wrap: wrap;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%); 
+  width: 85%;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #fff;
+  z-index: 2; 
+}
+
+.poster {
+  height: 362px;
+  width: 271px;
+  border-radius: 31px;
+  box-shadow: -2px -4px 20px rgba(255, 255, 255, 0.3);
+  margin-right: 35px; 
+}
+
+.details {
+  text-align: left;
+  max-width: 70%;
+  padding-top: 95px;
+  flex: 1;
+}
+
+.details h2 {
+  margin: 0 0 2px 0;
+  font-size: 70px;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+
+.details p {
+  margin: 0 0 0 0;
+  font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 28px;
+}
+
+button {
+  padding: 12px 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.slick-dots {
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+  padding-right: 2px;
+}
+
+.slick-dots li button {
+  width: 30px;
+  height: 4px;
+  padding: 0;
+}
+
+.slick-dots li button:before {
+  font-size: 0;
+  line-height: 0;
+  padding: 0;
+  content: "";
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+  display: block;
+  border-radius: 8px;
+}
+
+.slick-dots li.slick-active button:before {
+  background-color: #fafafa;
+}
+
+.buttons .btn {
+  padding: 6px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.buttons .play-trailer {
+  text-decoration: underline;
+  font-weight: medium;
+  color: #E1E1E1;
+  padding: 10px 10px 10px 0;
+}
+
+.buttons .book-tickets {
+  background-color: #DC143C;
+}
+
+a.btn.book-tickets {
+  margin: 12px;
+  border-radius: 10px;
+}
+
+.play-trailer-container {
+  display: flex;
+  align-items: center;
+}
+
+.play-icon {
+  width: 30px; 
+  height: auto;
+  margin-right: 3px; 
+}

@@ -1,0 +1,39 @@
+/* src/AdminContactView.css */
+
+.admin-contact-view {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .contact-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(50% - 40px);
+    box-sizing: border-box;
+  }
+  
+  .contact-card h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .contact-card p {
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  .contact-card p strong {
+    color: #333;
+  }
+  

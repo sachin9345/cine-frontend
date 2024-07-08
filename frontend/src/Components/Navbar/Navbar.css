@@ -1,0 +1,36 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px ;
+    background-color: #111;
+    z-index: 999;
+      position: sticky;
+      top: 0;
+      left: 0;
+}
+
+.Navbar .logo {
+    padding: 6px;
+    padding-left: 25px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    padding-right: 30px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.nav ul li a.active {
+    color: #EE4B2B;  /* Change this to the color you want for the active link */
+    font-weight: bold;
+}

@@ -1,0 +1,91 @@
+
+.footer{
+  background-color: black;
+}
+.logofoo{
+  height: 65px;
+  justify-content: space-between;
+  display:  flex;
+}
+.container{
+  margin:0 50px
+}
+.icons{
+  padding: 12px 0;
+}
+.sitelogofoo{
+  padding-top: 17px ;
+}
+.about{
+  background-color: black;
+}
+hr{
+  margin: 0;
+}
+.aboutrow{
+  color: white;
+   display: flex;
+   justify-content:space-evenly;
+}
+.aboutus p{
+  width: 500px;
+  text-align: justify;
+  font-weight:lighter;
+  margin: 0;
+  margin-bottom: 27px;
+
+}
+h3{
+  margin: 25px 0 0 0;
+}
+.optionscol ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.optionscol ul li {
+  margin-bottom: 5px;
+}
+
+.optionscol ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: lighter;
+}
+.optionscol{
+  margin: 38px 40px;
+
+}
+.addresscol{
+  color: white;
+  text-align: right;
+}
+.address h2{
+  font-size: 16px;
+  margin: 55px 0 0 0;
+}
+.address p{
+  font-size: 16px;
+  margin: 0;
+  font-weight: lighter;
+}
+.dev h2{
+  font-size: 16px;
+  margin: 30px 0 0 0;
+}
+.dev p{
+  margin: 0;
+  font-size: 16px;
+  text-decoration: underline
+}
+.copyright{
+  color:#909090;
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: center;
+}
+.optionscol a{
+  text-decoration: none;
+  color: white;
+}
